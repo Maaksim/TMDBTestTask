@@ -8,11 +8,10 @@ import Foundation
 
 class APIService {
     let httpClient: HTTPClientProvider
-    let jsonParser: JSONParserServiceProtocol
+    let jsonParser: JSONParserServiceProtocol = JSONParserService() //
     
     init() {
         self.httpClient = HTTPClient()
-        self.jsonParser = HTTPClient().jsonParser
     }
     
     func handleResponseResult<T: Codable>(result: Result<Data, Error>, responseModel: T.Type, completion: @escaping (Result<T, Error>) -> Void) {

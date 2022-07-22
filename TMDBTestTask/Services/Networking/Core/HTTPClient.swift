@@ -28,9 +28,7 @@ final class HTTPClient: HTTPClientProvider {
         
         self.urlSession = session ?? URLSession.init(configuration: .default, delegate: nil, delegateQueue: delegateQueue)
     }
-        
-    let jsonParser: JSONParserServiceProtocol = JSONParserService()
-            
+                
     private let urlSession: URLSessionProtocol
     
     enum RequestType: String {
