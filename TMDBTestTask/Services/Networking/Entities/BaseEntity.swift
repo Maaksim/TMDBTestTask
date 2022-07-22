@@ -1,6 +1,6 @@
 //
 //  BaseEntity.swift
-//  Dogiz
+//  TMDBTestTask
 //
 //  Created by Lampa on 26.05.2021.
 //  Copyright © 2021 w. All rights reserved.

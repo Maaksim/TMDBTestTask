@@ -1,5 +1,5 @@
 //
-//  TechnicalChallengeTask
+//  TMDBTestTask
 //
 //  Created by Maksym Vitovych on 04.02.2022.
 //
